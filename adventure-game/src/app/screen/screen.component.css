@@ -1,0 +1,12 @@
+@import url(//undertalefonts.duodecima.technology/webfonts/stylesheet.css);
+
+p,h1 {
+  font-family:'Determination Mono', sans-serif;
+}
+
+.screen {
+  background-color: black;
+  color: white;
+  width:800px;
+  height:500px;
+}
