@@ -4,16 +4,29 @@ p,h1 {
   font-family:'Determination Mono', sans-serif;
   font-size: 28px;
 }
-
+.eye1 {
+  color:green;
+}
+.eye2 {
+  color:purple;
+}
 .screen {
   background-color: black;
   color: white;
   width:800px;
-  height:500px;
+  height:600px;
 }
 
 .story_image {
   display:block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.gameButton {
+  font-family:'Determination Mono', sans-serif;
+  font-size: 30pt;
+  text-shadow: 1px 1px #494949, -1px -1px #232323;
+  background-color: #1e1e1d;
+  color:grey;
 }
