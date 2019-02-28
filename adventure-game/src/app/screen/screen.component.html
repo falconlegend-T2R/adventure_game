@@ -14,21 +14,24 @@
 
 <div class="container" style="margin-left:15%;">
         <div class="row">
-          <div class="col-sm-4">
-              <button type="button" class="gameButton align-middle" [innerHtml]="getCurrentBtn('1')" (click)="changeScene('btn1')">
-              
+          <div class="button_menu">
+
+              <button type="button" class="gameButton align-middle" [innerHtml]="getCurrentBtn('1')" (click)="changeScene('btn1')"
+              [hidden]="getCurrentBtn('1') == '' ">    
                 </button>
-          </div>
-          <div class="col-sm-4">
-              <button type="button" class="gameButton align-middle"  [innerHtml]="getCurrentBtn('2')"  (click)="changeScene('btn2')">
+ 
+
+              <button type="button" class="gameButton align-middle"  [innerHtml]="getCurrentBtn('2')"  (click)="changeScene('btn2')"
+              [hidden]="getCurrentBtn('2') == '' ">
                 
                 </button>
-          </div>
-          <div class="col-sm-4">
-              <button type="button" class="gameButton align-middle" [innerHtml]="getCurrentBtn('3')" (click)="changeScene('btn3')">
+
+
+              <button type="button" class="gameButton align-middle" [innerHtml]="getCurrentBtn('3')" (click)="changeScene('btn3')"
+              [hidden]="getCurrentBtn('3') == '' ">
                
                 </button>
-          </div>
+              </div>
         </div>
   </div>
 

@@ -41,7 +41,6 @@ export class ScreenComponent implements OnInit {
       this.current_page = this.story[this.current_page].btn3;
     }
     
-    console.log(this.current_page);
   }
   story:any={
     '0':{
