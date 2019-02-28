@@ -1,2 +1,16 @@
-<div class="container screen"><span [innerHtml]="story[0].text"></span>
+<div class="container">
+<div class="container screen">
+  <div class="row">
+    <div class="col-md-12">
+      <span class="align-middle"><img class="center-block" [src]="story['0.b'].image" /></span>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-md-12">
+            <span [innerHtml]="story['0.b'].text"></span>
+      </div>
+  </div>
 </div>
+<app-menu></app-menu>
+</div>
+

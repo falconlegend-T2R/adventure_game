@@ -1,0 +1,12 @@
+.backgroundImage {
+    background-size:10em;
+    background-repeat:repeat;
+    background-image:url("../assets/img/background.jpg");
+  }
+
+  .middleBackground {
+      background-color:#212a3f;
+      border: thick double #9b742b;
+      border-bottom: none;
+      border-top: none;
+  }

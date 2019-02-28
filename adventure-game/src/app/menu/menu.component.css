@@ -1,0 +1,9 @@
+@import url(//undertalefonts.duodecima.technology/webfonts/stylesheet.css);
+
+.gameButton {
+    font-family:'Determination Mono', sans-serif;
+    font-size: 30pt;
+    text-shadow: 1px 1px #494949, -1px -1px #232323;
+    background-color: #1e1e1d;
+    color:grey;
+}

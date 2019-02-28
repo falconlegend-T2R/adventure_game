@@ -2,6 +2,7 @@
 
 p,h1 {
   font-family:'Determination Mono', sans-serif;
+  font-size: 28px;
 }
 
 .screen {
@@ -9,4 +10,10 @@ p,h1 {
   color: white;
   width:800px;
   height:500px;
+}
+
+.story_image {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
