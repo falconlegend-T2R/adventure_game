@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-screen',
@@ -12,8 +13,14 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 export class ScreenComponent implements OnInit {
   private current_page:string = '0';
-  
+  public screen_class:string = "container screen";
+
   public getCurrentScene(){
+    if(this.current_page == '3'){
+      this.screen_class = "container screen shake-hard shake-constant";
+    }else{
+      this.screen_class = "container screen";
+    }
     return this.current_page
   }
 
