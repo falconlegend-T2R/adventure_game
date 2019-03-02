@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { NgClass } from '@angular/common';
+import { runInThisContext } from 'vm';
 
 @Component({
   selector: 'app-screen',
@@ -10,10 +11,25 @@ import { NgClass } from '@angular/common';
 
 //Encapsulation is set to None to allow my styles to affect the INNER HTML element
 // By default its set to Emulated.
+export class CombatMoudle {
+  public hp:number = 10;
+  
+  constructor(public bossHp:number, public bossAc:number){}
+  
+  public attack(){
+    var roll:number = Math.floor(Math.random() * 20) + 1;
+
+    if(roll > this.bossAc){
+
+    }
+  }
+
+}
 
 export class ScreenComponent implements OnInit {
   private current_page:string = '0';
   public screen_class:string = "container screen";
+
 
   public getCurrentScene(){
     if(this.current_page == '3'){

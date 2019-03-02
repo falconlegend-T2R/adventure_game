@@ -7,6 +7,7 @@ import { ScreenComponent } from './screen/screen.component';
 import { MenuComponent } from './menu/menu.component';
 import { HeaderComponent } from './header/header.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
